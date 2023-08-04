@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.app-main-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.language-filter-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.repository-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-heading {
+  font-family: 'Bree Serif';
+  color: #0f172a;
+}
+.loading-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
